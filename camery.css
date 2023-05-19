@@ -57,6 +57,7 @@
     justify-content: space-between;
 }
 .sociallogos i:hover{
+    cursor: pointer;
     color: rgb(151, 151, 149)!important ; 
 }
 .sociallogos img{
