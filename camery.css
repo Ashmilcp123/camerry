@@ -9,6 +9,16 @@
 *{
     margin: 0;
 }
+
+::-webkit-scrollbar{
+    width: 4px;
+}
+::-webkit-scrollbar-track{
+    background-color: #000000;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #bc9e33;
+}
 .nav{
     padding-top: 39px;
     padding-right: 428px;
@@ -54,13 +64,12 @@
 }
 .back2{
     width: 100%;
-    height: 1425px;
+    height: 1450px;
     background-color: #9c4041;
 }
 .cake img{
-    margin-top: 55px;
-    margin-left: 119px;
-    width: 40%;
+    margin-top: 45px;
+    margin-left:104px;
 }
 .last{
     background-color: #1c1c1c;
@@ -137,4 +146,45 @@
 .lastthings{
     display: flex;
     justify-content: space-between;
+}
+.centertext{
+    margin-top: 181px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+.centercontents{
+    display: flex;
+}
+.centermain{
+    font-family: 'nav2';
+    font-size: 50px;
+    font-weight: 800;
+}
+.centerstart{
+    font-family: 'nav2';
+}
+.centerdiscription{
+    font-family: 'nav2';
+    font-size: 15px;
+}
+.explore{
+    color:#bc9e33 ;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'nav2';
+    font-weight: 600;
+    border: 2px solid #bc9e33;
+    width: 80px;
+    background: none;
+}
+.explore:hover{
+    cursor: pointer;
+    background-color: #bc9e33;
+    color: #1c1c1c;
+    transition: 400ms;
+}
+.lastarrow{
 }
